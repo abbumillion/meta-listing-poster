@@ -36,8 +36,8 @@ class Poster implements Runnable{
         WebElement email = driver.findElement(By.name("email"));
         WebElement pass = driver.findElement(By.name("pass"));
         WebElement loginButton = driver.findElement(By.name("login"));
-        email.sendKeys("0923683988");
-        pass.sendKeys("million@03043623683988");
+        email.sendKeys("email");
+        pass.sendKeys("*********");
         loginButton.click();
 
 
